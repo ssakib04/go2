@@ -1,0 +1,50 @@
+{
+  "name": "go2",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "typecheck": "tsc --noEmit",
+    "lint": "expo lint",
+    "test": "tsx --test tests/**/*.test.ts",
+    "test:sql": "tsx tests/sql/run.ts",
+    "export:android": "expo export --platform android --output-dir dist-android",
+    "export:ios": "expo export --platform ios --output-dir dist-ios"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/netinfo": "12.0.1",
+    "@react-native-google-signin/google-signin": "^17.0.0",
+    "@supabase/supabase-js": "^2.119.0",
+    "babel-preset-expo": "~58.0.0",
+    "expo": "~58.0.23",
+    "expo-camera": "~58.0.14",
+    "expo-constants": "~58.0.15",
+    "expo-dev-client": "~58.0.18",
+    "expo-file-system": "~58.0.13",
+    "expo-linking": "~58.0.16",
+    "expo-router": "~58.0.30",
+    "expo-status-bar": "~58.0.4",
+    "expo-system-ui": "~58.0.7",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-qrcode-svg": "^6.3.54",
+    "react-native-safe-area-context": "~5.11.1",
+    "react-native-screens": "~4.30.1",
+    "react-native-svg": "15.16.0",
+    "react-native-url-polyfill": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/pg": "^8.15.5",
+    "@types/react": "~19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-expo": "~58.0.4",
+    "pg": "^8.16.3",
+    "tsx": "^4.20.6",
+    "typescript": "~6.0.3"
+  }
+}
