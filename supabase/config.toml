@@ -1,0 +1,12 @@
+# Function settings read by `supabase functions deploy`.
+# Project ref: rsmxyisnwluqashngmht
+project_id = "rsmxyisnwluqashngmht"
+
+[functions.link-drive]
+verify_jwt = true
+
+[functions.create-room]
+verify_jwt = true
+
+[functions.upload-photo]
+verify_jwt = true
